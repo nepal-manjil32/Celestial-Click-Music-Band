@@ -1,0 +1,113 @@
+#main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 75vh;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center; 
+    margin: 0; 
+    font-family: cursive; 
+    font-size: 4rem;
+    text-shadow: 5px 5px 5px rgb(179, 156, 9);
+}
+
+.container{
+    display: grid;
+    grid-template-rows: repeat(4, 120px);
+    grid-template-columns: repeat(3, 120px);
+    gap: 5px;
+}
+
+
+div > button{
+    text-align: center;
+    font-size: 2rem;
+    font-family: cursive;
+    color:rgb(0, 0, 0);
+    text-shadow: 1px 1px #ffffff;
+}
+
+legend{
+    text-align: center; 
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.pressed {
+    box-shadow: 0 3px 4px 0 #000000;
+    opacity: 0.3;
+  }
+
+.A{
+    background-image: url(./crash.png);
+    background-size: cover;
+}
+
+.S{
+    background-image: url(./snare.png);
+    background-size: cover;
+}
+
+.D{
+    background-image: url(./tabla.png);
+    background-size: cover;
+}
+
+.F{
+    background-image: url(./saxo1.webp);
+    background-size: cover;
+}
+
+.G{
+    background-image: url(./kick.png);
+    background-size: cover;
+}
+
+.H{
+    background-image: url(./tom1.png);
+    background-size: cover;
+}
+
+.J{
+    background-image: url(./tom2.png);
+    background-size: cover;
+}
+
+.K{
+    background-image: url(./tom3.png);
+    background-size: cover;
+}
+
+.L{
+    background-image: url(./tom4.png);
+    background-size: cover;
+}
+
+.M{
+    background-image: url(./accordion.png);
+    background-size: cover;
+}
+
+.N{
+    background-image: url(./marcas.png);
+    background-size: cover;
+}
+
+.O{
+    background-image: url(./tambourine.webp);
+    background-size: cover;
+}
+
+li{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+body{
+    background-image: url(./back.png);
+    background-size: cover;
+}
